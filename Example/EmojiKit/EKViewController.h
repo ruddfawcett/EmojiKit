@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <EmojiKit/EmojiKit.h>
 
-@interface EKViewController : UIViewController
+@class EKTemplateViewController;
+
+@interface EKViewController : UITableViewController
 
 @end

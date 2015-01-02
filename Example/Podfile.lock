@@ -1,0 +1,14 @@
+PODS:
+  - EmojiKit (0.1.0)
+
+DEPENDENCIES:
+  - EmojiKit (from `../`)
+
+EXTERNAL SOURCES:
+  EmojiKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EmojiKit: fe50362da79098830a5c698859359578579af473
+
+COCOAPODS: 0.35.0
