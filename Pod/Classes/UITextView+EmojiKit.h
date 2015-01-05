@@ -26,4 +26,11 @@
 
 @interface UITextView (EmojiKit)
 
+/**
+ *  A screenshot of the contents in the text view as a UIImage.
+ *
+ *  @return The screenshot.
+ */
+- (UIImage *)screenshot;
+
 @end

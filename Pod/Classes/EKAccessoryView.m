@@ -24,7 +24,7 @@
 
 #import "EKAccessoryView.h"
 
-#import "EKToggleButton.h"
+#import "EmojiKit.h"
 
 /**
  *  The height of the accessory view.

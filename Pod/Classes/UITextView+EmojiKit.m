@@ -26,4 +26,26 @@
 
 @implementation UITextView (EmojiKit)
 
+- (UIImage *)screenshot {
+    UIImage *image = nil;
+    
+    UIGraphicsBeginImageContextWithOptions(self.contentSize, NO, UIScreen.mainScreen.scale);
+    
+    CGPoint offset = self.contentOffset;
+    CGRect frame = self.frame;
+    
+    self.contentOffset = CGPointZero;
+    self.frame = CGRectMake(0, 0, self.contentSize.width, self.contentSize.height);
+    
+    [self.layer renderInContext: UIGraphicsGetCurrentContext()];
+    image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    self.contentOffset = offset;
+    self.frame = frame;
+    
+    UIGraphicsEndImageContext();
+
+    return image;
+}
+
 @end

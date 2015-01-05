@@ -23,7 +23,8 @@
 //
 
 #import "EKToggleButton.h"
-#import "UIImage+EmojiKit.h"
+
+#import "EmojiKit.h"
 
 @implementation EKToggleButton
 

@@ -1,2329 +1,940 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00252F92A2118A18B70FE44F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BAAB575762A57A252B705D54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>015114AA7B5C0E41FC771EC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0DA7EBBDAE4D91C1FED67772</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>036D295E5A7CCF0720A013C1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>621635D277D75D3FCC6CDE99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>03ECBE3191C68EFBA23CC6C0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06ABCBD14C7B209A24FC5663</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>07178C04CE60BA2AF6649ED0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+EmojiKit.h</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImage+EmojiKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C64870AEC8B1ADACAE1078A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>848D4555BC2AE52B4F9B36F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CBA561A57533553E9F93EEC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>93F4D43E26F40A8D8592D34F</string>
-				<string>7D164FEBA9A6BCD3A1353740</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0DA7EBBDAE4D91C1FED67772</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKAccessoryView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKAccessoryView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>101B76C29A8FD50D9949C3E6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-EmojiKit-EmojiKit</string>
-			<key>target</key>
-			<string>1060C39332EEBEEB08610A1E</string>
-			<key>targetProxy</key>
-			<string>6D2A0EE02A6027FB6AB46C52</string>
-		</dict>
-		<key>1060C39332EEBEEB08610A1E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>578CA4738AF2EBB5244FE3FC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7E948AF2F34BCCBAF152D35C</string>
-				<string>A44BE008F8380552F99D0C87</string>
-				<string>3B9F67C689F045755CC9F4A8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>98C8B78EFCD48F53EC93D0CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-EmojiKit-EmojiKit</string>
-			<key>productName</key>
-			<string>Pods-EmojiKit-EmojiKit</string>
-			<key>productReference</key>
-			<string>7B06848E44ADB911588469BD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>10A4C98389D822E731A65C37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0DA7EBBDAE4D91C1FED67772</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12732730E836B0449EDC572B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BAAB575762A57A252B705D54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14C42D9918692E97EC5BD175</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2324CAD01E70A2E743D9621A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>15532615627760952F10F9BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93118F47ED0F0692F7CB53CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>165D8B3B143B4AEFC4865284</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3545068750DDFB6395E0DB22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>168A0C421BCA2259782668D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17860A33B0D708795A0B1BCD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F62F890985D1FD9E0C7E3CFB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1D47E8D776835D28AAB0D352</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F2F36C391D16DA416F4137CA</string>
-				<string>848D4555BC2AE52B4F9B36F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D6B8E889970270806D3AFE4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>230BFA9FAB73BE668F12818A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DE36E76C2AD0162AB61B0D07</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>900AAA7E1CEDBEE3434EB2A4</string>
-			<key>remoteInfo</key>
-			<string>EmojiKit</string>
-		</dict>
-		<key>2324CAD01E70A2E743D9621A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKKeyboard.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKKeyboard.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>233EA63931D52B5352C6875A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23481CCC52FA18757438F346</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>970EEF98DEC83DEFEA5EA4EC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>249E2053D8F909DD3E2D9A10</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DF5B23724DFD5C868E51557A</string>
-				<string>0DA7EBBDAE4D91C1FED67772</string>
-				<string>FE7405A0E80674B1C4FDD4AE</string>
-				<string>3DFA5D02C5E06DBCAC9EC689</string>
-				<string>93118F47ED0F0692F7CB53CC</string>
-				<string>24DBEDBAF0B75710EFFF847F</string>
-				<string>621635D277D75D3FCC6CDE99</string>
-				<string>C0646460B1B0DB50157164CB</string>
-				<string>6B98C8DE9B19BD1ED6F6ECFB</string>
-				<string>7A35C8E1F7AA0A0A6847AF2F</string>
-				<string>2324CAD01E70A2E743D9621A</string>
-				<string>411FCDEAFD53AED7FE7DCEDC</string>
-				<string>88C6A9319D5F2B9268DACD36</string>
-				<string>B4C28306EB2BCA8D4F0938B5</string>
-				<string>3545068750DDFB6395E0DB22</string>
-				<string>07178C04CE60BA2AF6649ED0</string>
-				<string>C4E03422451BFA3C4D26AD53</string>
-				<string>BDAD98A44972B0B928867B12</string>
-				<string>BAAB575762A57A252B705D54</string>
-				<string>E226B6CA67BE81F62DDB2CC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>EmojiKit</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24DBEDBAF0B75710EFFF847F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKCollectionView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollectionView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B0292FADE117F04BFC7496C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F36C391D16DA416F4137CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3545068750DDFB6395E0DB22</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EmojiKit.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EmojiKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3568082E7512B317EA79F81E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5C9AAFF5FC24CE8EE703FD53</string>
-				<string>43F88184C08F20CE164CA55F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>38013411C5AD69FF3CE442A2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AF40EE88DEEAE52043D2E9BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3B9F67C689F045755CC9F4A8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>68099D6D41137EBA8CEC86FF</string>
-				<string>944F0B99ACB58A6E66201B79</string>
-				<string>15532615627760952F10F9BD</string>
-				<string>FD46F23D794432AB8606207E</string>
-				<string>D47DFC532668701DC15EC3D5</string>
-				<string>14C42D9918692E97EC5BD175</string>
-				<string>D267A66D806C2DA70F265833</string>
-				<string>165D8B3B143B4AEFC4865284</string>
-				<string>B6026A1BDE1261F293411AF6</string>
-				<string>48525740B17602BE818C19C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3DFA5D02C5E06DBCAC9EC689</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKCollection.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollection.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>411FCDEAFD53AED7FE7DCEDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKKeyboard.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKKeyboard.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43F88184C08F20CE164CA55F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A8ED91D529C85304510414C8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>45AFBE25D347D7AF48E28FF6</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3568082E7512B317EA79F81E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>A8487BF003D753D8673DC93A</string>
-				<string>8106BBEF3A044B63A036D7DA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>101B76C29A8FD50D9949C3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-EmojiKit</string>
-			<key>productName</key>
-			<string>Pods-EmojiKit</string>
-			<key>productReference</key>
-			<string>51EF409582BD290D928C0239</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>45C2E6005240E3E2B05757B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-EmojiKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48525740B17602BE818C19C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDAD98A44972B0B928867B12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CD24CF4737ECDAD9C399988</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4DAB7BCB0A74BA9FAEBDAFAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F36C391D16DA416F4137CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>518AF426DAAFA8B28B7B454A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>411FCDEAFD53AED7FE7DCEDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51EF409582BD290D928C0239</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-EmojiKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>533A8C34E2D7A03B9B37DC7D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4C28306EB2BCA8D4F0938B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5624D66AAB6A15B826BC8AD7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D47E8D776835D28AAB0D352</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5750801A8DC7EDDD4D1035F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A35C8E1F7AA0A0A6847AF2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>578CA4738AF2EBB5244FE3FC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A8C02BD61850BB798AF061CE</string>
-				<string>7C965BFB91B0A66252F559AF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>57A67730FC2554703A4F5240</key>
-		<dict>
-			<key>fileRef</key>
-			<string>411FCDEAFD53AED7FE7DCEDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5A4CDF4C11BEB9F3178D9B20</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F62F890985D1FD9E0C7E3CFB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5C9AAFF5FC24CE8EE703FD53</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>FEBC8C1D079A02BEB61DAB9F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>621635D277D75D3FCC6CDE99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKCollectionViewCell.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollectionViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>63F39686BC20DF2BBF25B290</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-EmojiKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>652555EA6C9B88B5FDC67607</key>
-		<dict>
-			<key>fileRef</key>
-			<string>233EA63931D52B5352C6875A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>65617F3E6A1A1F9BFB45FE10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68099D6D41137EBA8CEC86FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF5B23724DFD5C868E51557A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>68B99A39439500D1DC9D79CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C5004733CEA63C84BB137BC9</string>
-				<string>F5F0E077D35EAEF831E9C21B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>69BC6FDAE1674C4E741CAA32</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F36C391D16DA416F4137CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69CBF02CAF87CA8F0228C509</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E764AA0A0F1581C1B1F49CE3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DA02B4C7C6DF91EACA0F39EB</string>
-				<string>38013411C5AD69FF3CE442A2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C636B1DFD846041152753B53</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>6ED97D72F192177112EFC537</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6AAECEEEB28CE4C13F7E3D90</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E0F86CA6B6850332D218AB4E</string>
-				<string>DDE27FA9694609B0A3107861</string>
-				<string>FF49B6F922F2F0DBF7A610D0</string>
-				<string>036D295E5A7CCF0720A013C1</string>
-				<string>9E6BFF5EA934D08E2A2362B8</string>
-				<string>798CB73B5B29CC9F6013420E</string>
-				<string>8B481D7A4F55FD9C5B944070</string>
-				<string>CE5750C4458341076C9E31CA</string>
-				<string>765D3CEB2B7336198D1138AE</string>
-				<string>7781B827DBD5E46CC47AF399</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6B98C8DE9B19BD1ED6F6ECFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKEmoji.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKEmoji.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D2A0EE02A6027FB6AB46C52</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DE36E76C2AD0162AB61B0D07</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1060C39332EEBEEB08610A1E</string>
-			<key>remoteInfo</key>
-			<string>Pods-EmojiKit-EmojiKit</string>
-		</dict>
-		<key>6DD1F14C5A29634DC757AB0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6ED97D72F192177112EFC537</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>70DED150B1E417AF9821A9E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A35C8E1F7AA0A0A6847AF2F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>72ADE58A3A30800332F2F59D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>848D4555BC2AE52B4F9B36F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>765D3CEB2B7336198D1138AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07178C04CE60BA2AF6649ED0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7694742389EAC59FCA79D0EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>76AC3302F0C99390AB5F8CB4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0646460B1B0DB50157164CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7781B827DBD5E46CC47AF399</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDAD98A44972B0B928867B12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>798CB73B5B29CC9F6013420E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2324CAD01E70A2E743D9621A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A35C8E1F7AA0A0A6847AF2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKEmoji.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKEmoji.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7AC5C91687E020A58E5D00DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B06848E44ADB911588469BD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-EmojiKit-EmojiKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7C15AC336443B338515EEFDD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C0646460B1B0DB50157164CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7C965BFB91B0A66252F559AF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45C2E6005240E3E2B05757B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-EmojiKit-EmojiKit/Pods-EmojiKit-EmojiKit-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D164FEBA9A6BCD3A1353740</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7E948AF2F34BCCBAF152D35C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>015114AA7B5C0E41FC771EC1</string>
-				<string>CCC85131A2961710C46845B6</string>
-				<string>8E7070356554CC82E8A49D41</string>
-				<string>7C15AC336443B338515EEFDD</string>
-				<string>5750801A8DC7EDDD4D1035F9</string>
-				<string>57A67730FC2554703A4F5240</string>
-				<string>533A8C34E2D7A03B9B37DC7D</string>
-				<string>AF3EBE601B5F62D24E1B4370</string>
-				<string>F45F17F570A4EFD34C9A3CF7</string>
-				<string>12732730E836B0449EDC572B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8060BEDE2137D3AEF6DF28BD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>65617F3E6A1A1F9BFB45FE10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8106BBEF3A044B63A036D7DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4DAB7BCB0A74BA9FAEBDAFAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>848D4555BC2AE52B4F9B36F4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>88C6A9319D5F2B9268DACD36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKToggleButton.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKToggleButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B0D40F9949E56378F692860</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>249E2053D8F909DD3E2D9A10</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8B481D7A4F55FD9C5B944070</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88C6A9319D5F2B9268DACD36</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8B98A1937E50585C77F94D20</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-EmojiKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8C301BC9BEBE362B71FCA5B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4C28306EB2BCA8D4F0938B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8E7070356554CC82E8A49D41</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24DBEDBAF0B75710EFFF847F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>900AAA7E1CEDBEE3434EB2A4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A49CA76E4479BB963A09CCFD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D7DBCAA68762733AE02C509E</string>
-				<string>BAA802DA7A5A53D31341D26A</string>
-				<string>4CD24CF4737ECDAD9C399988</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>EmojiKit</string>
-			<key>productName</key>
-			<string>EmojiKit</string>
-			<key>productReference</key>
-			<string>C66C19512CF06A54640F0CC3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>93118F47ED0F0692F7CB53CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKCollectionView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollectionView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93F4D43E26F40A8D8592D34F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>944F0B99ACB58A6E66201B79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE7405A0E80674B1C4FDD4AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>970EEF98DEC83DEFEA5EA4EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98C8B78EFCD48F53EC93D0CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>EmojiKit</string>
-			<key>target</key>
-			<string>900AAA7E1CEDBEE3434EB2A4</string>
-			<key>targetProxy</key>
-			<string>230BFA9FAB73BE668F12818A</string>
-		</dict>
-		<key>9D4DBEAA13DF6D2E8D106308</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24DBEDBAF0B75710EFFF847F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9DB208EAC9AC3FBA47BC0DFC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B4E7D8B7B688ACBE4B37289E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C5996E8D2B9C0509069CA5D1</string>
-				<string>D9E7BC40B3749A19D754321E</string>
-				<string>6AAECEEEB28CE4C13F7E3D90</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A78C1EF385D0D8B194280C61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit</string>
-			<key>productName</key>
-			<string>Pods-Tests-EmojiKit</string>
-			<key>productReference</key>
-			<string>8B98A1937E50585C77F94D20</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9E670F8F019440BAB71B8C52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-EmojiKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E6BFF5EA934D08E2A2362B8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6B98C8DE9B19BD1ED6F6ECFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A44BE008F8380552F99D0C87</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>69BC6FDAE1674C4E741CAA32</string>
-				<string>0C64870AEC8B1ADACAE1078A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A48437758BACCF9FF5D5D253</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A49CA76E4479BB963A09CCFD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>C5971D035B761C5DC47A9C2A</string>
-				<string>D614611EDC2DB259E619017E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A78C1EF385D0D8B194280C61</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>EmojiKit</string>
-			<key>target</key>
-			<string>900AAA7E1CEDBEE3434EB2A4</string>
-			<key>targetProxy</key>
-			<string>C9639B96EEE9ED04C97BF71B</string>
-		</dict>
-		<key>A8487BF003D753D8673DC93A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>652555EA6C9B88B5FDC67607</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A8C02BD61850BB798AF061CE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>45C2E6005240E3E2B05757B2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-EmojiKit-EmojiKit/Pods-EmojiKit-EmojiKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A8ED91D529C85304510414C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-EmojiKit.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF3EBE601B5F62D24E1B4370</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63F39686BC20DF2BBF25B290</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AF40EE88DEEAE52043D2E9BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2F36C391D16DA416F4137CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0D1C0ED1841F41C995394FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>168A0C421BCA2259782668D6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B2B84B5D585F2001BBDCF4CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C66C19512CF06A54640F0CC3</string>
-				<string>51EF409582BD290D928C0239</string>
-				<string>7B06848E44ADB911588469BD</string>
-				<string>6ED97D72F192177112EFC537</string>
-				<string>8B98A1937E50585C77F94D20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4C28306EB2BCA8D4F0938B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKToggleButton.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKToggleButton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4E7D8B7B688ACBE4B37289E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5A4CDF4C11BEB9F3178D9B20</string>
-				<string>17860A33B0D708795A0B1BCD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B6026A1BDE1261F293411AF6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07178C04CE60BA2AF6649ED0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B7D35655073E55AF45FF9861</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DFA5D02C5E06DBCAC9EC689</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BAA802DA7A5A53D31341D26A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BAAB575762A57A252B705D54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UITextView+EmojiKit.m</string>
-			<key>path</key>
-			<string>Pod/Classes/UITextView+EmojiKit.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDAD98A44972B0B928867B12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UITextView+EmojiKit.h</string>
-			<key>path</key>
-			<string>Pod/Classes/UITextView+EmojiKit.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C0646460B1B0DB50157164CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>EKCollectionViewCell.m</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollectionViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4E03422451BFA3C4D26AD53</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+EmojiKit.m</string>
-			<key>path</key>
-			<string>Pod/Classes/UIImage+EmojiKit.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5004733CEA63C84BB137BC9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F4FEC0A93ADADB3F63C73CE7</string>
-				<string>D7AF2CFED9658D1DBB8A83E8</string>
-				<string>233EA63931D52B5352C6875A</string>
-				<string>7694742389EAC59FCA79D0EA</string>
-				<string>7AC5C91687E020A58E5D00DA</string>
-				<string>FEBC8C1D079A02BEB61DAB9F</string>
-				<string>A8ED91D529C85304510414C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-EmojiKit</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-EmojiKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5971D035B761C5DC47A9C2A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C5996E8D2B9C0509069CA5D1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10A4C98389D822E731A65C37</string>
-				<string>B7D35655073E55AF45FF9861</string>
-				<string>9D4DBEAA13DF6D2E8D106308</string>
-				<string>76AC3302F0C99390AB5F8CB4</string>
-				<string>70DED150B1E417AF9821A9E6</string>
-				<string>518AF426DAAFA8B28B7B454A</string>
-				<string>8C301BC9BEBE362B71FCA5B7</string>
-				<string>8060BEDE2137D3AEF6DF28BD</string>
-				<string>E0DAE1E7F5DA9C1578899FFE</string>
-				<string>00252F92A2118A18B70FE44F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C636B1DFD846041152753B53</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit</string>
-			<key>target</key>
-			<string>9DB208EAC9AC3FBA47BC0DFC</string>
-			<key>targetProxy</key>
-			<string>EC91919EE70DCA9598AB8C73</string>
-		</dict>
-		<key>C66C19512CF06A54640F0CC3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>EmojiKit.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C9639B96EEE9ED04C97BF71B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DE36E76C2AD0162AB61B0D07</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>900AAA7E1CEDBEE3434EB2A4</string>
-			<key>remoteInfo</key>
-			<string>EmojiKit</string>
-		</dict>
-		<key>CCC85131A2961710C46845B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DFA5D02C5E06DBCAC9EC689</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CD0136791B637EC97EB4B67D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D61AD7F5E066BA47652F7BF0</string>
-				<string>8B0D40F9949E56378F692860</string>
-				<string>5624D66AAB6A15B826BC8AD7</string>
-				<string>B2B84B5D585F2001BBDCF4CB</string>
-				<string>68B99A39439500D1DC9D79CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE5750C4458341076C9E31CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3545068750DDFB6395E0DB22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D267A66D806C2DA70F265833</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88C6A9319D5F2B9268DACD36</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D364840A0515E8DAE6B344F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D47DFC532668701DC15EC3D5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6B98C8DE9B19BD1ED6F6ECFB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D614611EDC2DB259E619017E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D61AD7F5E066BA47652F7BF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>D7AF2CFED9658D1DBB8A83E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7DBCAA68762733AE02C509E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D9E7BC40B3749A19D754321E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2B0292FADE117F04BFC7496C</string>
-				<string>72ADE58A3A30800332F2F59D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DA02B4C7C6DF91EACA0F39EB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B0D1C0ED1841F41C995394FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DDAD662DEF17B37295C8076A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>06ABCBD14C7B209A24FC5663</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>DDE27FA9694609B0A3107861</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE7405A0E80674B1C4FDD4AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DE36E76C2AD0162AB61B0D07</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>0CBA561A57533553E9F93EEC</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>CD0136791B637EC97EB4B67D</string>
-			<key>productRefGroup</key>
-			<string>B2B84B5D585F2001BBDCF4CB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>900AAA7E1CEDBEE3434EB2A4</string>
-				<string>45AFBE25D347D7AF48E28FF6</string>
-				<string>1060C39332EEBEEB08610A1E</string>
-				<string>69CBF02CAF87CA8F0228C509</string>
-				<string>9DB208EAC9AC3FBA47BC0DFC</string>
-			</array>
-		</dict>
-		<key>DF5B23724DFD5C868E51557A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKAccessoryView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKAccessoryView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0DAE1E7F5DA9C1578899FFE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4E03422451BFA3C4D26AD53</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E0F86CA6B6850332D218AB4E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DF5B23724DFD5C868E51557A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E226B6CA67BE81F62DDB2CC1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FD0555165879A826081B6930</string>
-				<string>45C2E6005240E3E2B05757B2</string>
-				<string>63F39686BC20DF2BBF25B290</string>
-				<string>9E670F8F019440BAB71B8C52</string>
-				<string>D364840A0515E8DAE6B344F8</string>
-				<string>F62F890985D1FD9E0C7E3CFB</string>
-				<string>65617F3E6A1A1F9BFB45FE10</string>
-				<string>03ECBE3191C68EFBA23CC6C0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-EmojiKit-EmojiKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E764AA0A0F1581C1B1F49CE3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DDAD662DEF17B37295C8076A</string>
-				<string>23481CCC52FA18757438F346</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EC91919EE70DCA9598AB8C73</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>DE36E76C2AD0162AB61B0D07</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9DB208EAC9AC3FBA47BC0DFC</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-EmojiKit</string>
-		</dict>
-		<key>F2F36C391D16DA416F4137CA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>F3D4F990773F92335083AA69</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F45F17F570A4EFD34C9A3CF7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4E03422451BFA3C4D26AD53</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F4FEC0A93ADADB3F63C73CE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5F0E077D35EAEF831E9C21B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1D6B8E889970270806D3AFE4</string>
-				<string>F3D4F990773F92335083AA69</string>
-				<string>168A0C421BCA2259782668D6</string>
-				<string>A48437758BACCF9FF5D5D253</string>
-				<string>6DD1F14C5A29634DC757AB0E</string>
-				<string>06ABCBD14C7B209A24FC5663</string>
-				<string>970EEF98DEC83DEFEA5EA4EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F62F890985D1FD9E0C7E3CFB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-EmojiKit-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD0555165879A826081B6930</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-EmojiKit-EmojiKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD46F23D794432AB8606207E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>621635D277D75D3FCC6CDE99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FE7405A0E80674B1C4FDD4AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EKCollection.h</string>
-			<key>path</key>
-			<string>Pod/Classes/EKCollection.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEBC8C1D079A02BEB61DAB9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-EmojiKit.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF49B6F922F2F0DBF7A610D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93118F47ED0F0692F7CB53CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>DE36E76C2AD0162AB61B0D07</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00252F92A2118A18B70FE44F /* UITextView+EmojiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAB575762A57A252B705D54 /* UITextView+EmojiKit.m */; };
+		015114AA7B5C0E41FC771EC1 /* EKAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7EBBDAE4D91C1FED67772 /* EKAccessoryView.m */; };
+		036D295E5A7CCF0720A013C1 /* EKCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 621635D277D75D3FCC6CDE99 /* EKCollectionViewCell.h */; };
+		0C64870AEC8B1ADACAE1078A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D4555BC2AE52B4F9B36F4 /* UIKit.framework */; };
+		10A4C98389D822E731A65C37 /* EKAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7EBBDAE4D91C1FED67772 /* EKAccessoryView.m */; };
+		12732730E836B0449EDC572B /* UITextView+EmojiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAB575762A57A252B705D54 /* UITextView+EmojiKit.m */; };
+		14C42D9918692E97EC5BD175 /* EKKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2324CAD01E70A2E743D9621A /* EKKeyboard.h */; };
+		15532615627760952F10F9BD /* EKCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93118F47ED0F0692F7CB53CC /* EKCollectionView.h */; };
+		165D8B3B143B4AEFC4865284 /* EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3545068750DDFB6395E0DB22 /* EmojiKit.h */; };
+		2B0292FADE117F04BFC7496C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F36C391D16DA416F4137CA /* Foundation.framework */; };
+		48525740B17602BE818C19C4 /* UITextView+EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAD98A44972B0B928867B12 /* UITextView+EmojiKit.h */; };
+		4DAB7BCB0A74BA9FAEBDAFAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F36C391D16DA416F4137CA /* Foundation.framework */; };
+		518AF426DAAFA8B28B7B454A /* EKKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 411FCDEAFD53AED7FE7DCEDC /* EKKeyboard.m */; };
+		533A8C34E2D7A03B9B37DC7D /* EKToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C28306EB2BCA8D4F0938B5 /* EKToggleButton.m */; };
+		5750801A8DC7EDDD4D1035F9 /* EKEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35C8E1F7AA0A0A6847AF2F /* EKEmoji.m */; };
+		57A67730FC2554703A4F5240 /* EKKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 411FCDEAFD53AED7FE7DCEDC /* EKKeyboard.m */; };
+		652555EA6C9B88B5FDC67607 /* Pods-EmojiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 233EA63931D52B5352C6875A /* Pods-EmojiKit-dummy.m */; };
+		68099D6D41137EBA8CEC86FF /* EKAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5B23724DFD5C868E51557A /* EKAccessoryView.h */; };
+		69BC6FDAE1674C4E741CAA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F36C391D16DA416F4137CA /* Foundation.framework */; };
+		70DED150B1E417AF9821A9E6 /* EKEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35C8E1F7AA0A0A6847AF2F /* EKEmoji.m */; };
+		72ADE58A3A30800332F2F59D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848D4555BC2AE52B4F9B36F4 /* UIKit.framework */; };
+		765D3CEB2B7336198D1138AE /* UIImage+EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07178C04CE60BA2AF6649ED0 /* UIImage+EmojiKit.h */; };
+		76AC3302F0C99390AB5F8CB4 /* EKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0646460B1B0DB50157164CB /* EKCollectionViewCell.m */; };
+		7781B827DBD5E46CC47AF399 /* UITextView+EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BDAD98A44972B0B928867B12 /* UITextView+EmojiKit.h */; };
+		798CB73B5B29CC9F6013420E /* EKKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2324CAD01E70A2E743D9621A /* EKKeyboard.h */; };
+		7C15AC336443B338515EEFDD /* EKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0646460B1B0DB50157164CB /* EKCollectionViewCell.m */; };
+		8060BEDE2137D3AEF6DF28BD /* Pods-Tests-EmojiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65617F3E6A1A1F9BFB45FE10 /* Pods-Tests-EmojiKit-dummy.m */; };
+		8B481D7A4F55FD9C5B944070 /* EKToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C6A9319D5F2B9268DACD36 /* EKToggleButton.h */; };
+		8C301BC9BEBE362B71FCA5B7 /* EKToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C28306EB2BCA8D4F0938B5 /* EKToggleButton.m */; };
+		8E7070356554CC82E8A49D41 /* EKCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEDBAF0B75710EFFF847F /* EKCollectionView.m */; };
+		944F0B99ACB58A6E66201B79 /* EKCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7405A0E80674B1C4FDD4AE /* EKCollection.h */; };
+		9D4DBEAA13DF6D2E8D106308 /* EKCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DBEDBAF0B75710EFFF847F /* EKCollectionView.m */; };
+		9E6BFF5EA934D08E2A2362B8 /* EKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B98C8DE9B19BD1ED6F6ECFB /* EKEmoji.h */; };
+		AF3EBE601B5F62D24E1B4370 /* Pods-EmojiKit-EmojiKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F39686BC20DF2BBF25B290 /* Pods-EmojiKit-EmojiKit-dummy.m */; };
+		AF40EE88DEEAE52043D2E9BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F36C391D16DA416F4137CA /* Foundation.framework */; };
+		B0D1C0ED1841F41C995394FC /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 168A0C421BCA2259782668D6 /* Pods-Tests-dummy.m */; };
+		B6026A1BDE1261F293411AF6 /* UIImage+EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07178C04CE60BA2AF6649ED0 /* UIImage+EmojiKit.h */; };
+		B7D35655073E55AF45FF9861 /* EKCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA5D02C5E06DBCAC9EC689 /* EKCollection.m */; };
+		CCC85131A2961710C46845B6 /* EKCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFA5D02C5E06DBCAC9EC689 /* EKCollection.m */; };
+		CE5750C4458341076C9E31CA /* EmojiKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3545068750DDFB6395E0DB22 /* EmojiKit.h */; };
+		D267A66D806C2DA70F265833 /* EKToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C6A9319D5F2B9268DACD36 /* EKToggleButton.h */; };
+		D47DFC532668701DC15EC3D5 /* EKEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B98C8DE9B19BD1ED6F6ECFB /* EKEmoji.h */; };
+		DDE27FA9694609B0A3107861 /* EKCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7405A0E80674B1C4FDD4AE /* EKCollection.h */; };
+		E0DAE1E7F5DA9C1578899FFE /* UIImage+EmojiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E03422451BFA3C4D26AD53 /* UIImage+EmojiKit.m */; };
+		E0F86CA6B6850332D218AB4E /* EKAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5B23724DFD5C868E51557A /* EKAccessoryView.h */; };
+		F45F17F570A4EFD34C9A3CF7 /* UIImage+EmojiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E03422451BFA3C4D26AD53 /* UIImage+EmojiKit.m */; };
+		FD46F23D794432AB8606207E /* EKCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 621635D277D75D3FCC6CDE99 /* EKCollectionViewCell.h */; };
+		FF49B6F922F2F0DBF7A610D0 /* EKCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93118F47ED0F0692F7CB53CC /* EKCollectionView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230BFA9FAB73BE668F12818A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE36E76C2AD0162AB61B0D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900AAA7E1CEDBEE3434EB2A4;
+			remoteInfo = EmojiKit;
+		};
+		6D2A0EE02A6027FB6AB46C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE36E76C2AD0162AB61B0D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1060C39332EEBEEB08610A1E;
+			remoteInfo = "Pods-EmojiKit-EmojiKit";
+		};
+		C9639B96EEE9ED04C97BF71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE36E76C2AD0162AB61B0D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900AAA7E1CEDBEE3434EB2A4;
+			remoteInfo = EmojiKit;
+		};
+		EC91919EE70DCA9598AB8C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE36E76C2AD0162AB61B0D07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DB208EAC9AC3FBA47BC0DFC;
+			remoteInfo = "Pods-Tests-EmojiKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ECBE3191C68EFBA23CC6C0 /* Pods-Tests-EmojiKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-EmojiKit-prefix.pch"; path = "../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch"; sourceTree = "<group>"; };
+		06ABCBD14C7B209A24FC5663 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		07178C04CE60BA2AF6649ED0 /* UIImage+EmojiKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+EmojiKit.h"; path = "Pod/Classes/UIImage+EmojiKit.h"; sourceTree = "<group>"; };
+		0DA7EBBDAE4D91C1FED67772 /* EKAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKAccessoryView.m; path = Pod/Classes/EKAccessoryView.m; sourceTree = "<group>"; };
+		168A0C421BCA2259782668D6 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		1D6B8E889970270806D3AFE4 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2324CAD01E70A2E743D9621A /* EKKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKKeyboard.h; path = Pod/Classes/EKKeyboard.h; sourceTree = "<group>"; };
+		233EA63931D52B5352C6875A /* Pods-EmojiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmojiKit-dummy.m"; sourceTree = "<group>"; };
+		24DBEDBAF0B75710EFFF847F /* EKCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCollectionView.m; path = Pod/Classes/EKCollectionView.m; sourceTree = "<group>"; };
+		3545068750DDFB6395E0DB22 /* EmojiKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EmojiKit.h; path = Pod/Classes/EmojiKit.h; sourceTree = "<group>"; };
+		3DFA5D02C5E06DBCAC9EC689 /* EKCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCollection.m; path = Pod/Classes/EKCollection.m; sourceTree = "<group>"; };
+		411FCDEAFD53AED7FE7DCEDC /* EKKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKKeyboard.m; path = Pod/Classes/EKKeyboard.m; sourceTree = "<group>"; };
+		45C2E6005240E3E2B05757B2 /* Pods-EmojiKit-EmojiKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiKit-EmojiKit-Private.xcconfig"; sourceTree = "<group>"; };
+		51EF409582BD290D928C0239 /* libPods-EmojiKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621635D277D75D3FCC6CDE99 /* EKCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCollectionViewCell.h; path = Pod/Classes/EKCollectionViewCell.h; sourceTree = "<group>"; };
+		63F39686BC20DF2BBF25B290 /* Pods-EmojiKit-EmojiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmojiKit-EmojiKit-dummy.m"; sourceTree = "<group>"; };
+		65617F3E6A1A1F9BFB45FE10 /* Pods-Tests-EmojiKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-EmojiKit-dummy.m"; path = "../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-dummy.m"; sourceTree = "<group>"; };
+		6B98C8DE9B19BD1ED6F6ECFB /* EKEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKEmoji.h; path = Pod/Classes/EKEmoji.h; sourceTree = "<group>"; };
+		6DD1F14C5A29634DC757AB0E /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		6ED97D72F192177112EFC537 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7694742389EAC59FCA79D0EA /* Pods-EmojiKit-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmojiKit-environment.h"; sourceTree = "<group>"; };
+		7A35C8E1F7AA0A0A6847AF2F /* EKEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKEmoji.m; path = Pod/Classes/EKEmoji.m; sourceTree = "<group>"; };
+		7AC5C91687E020A58E5D00DA /* Pods-EmojiKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmojiKit-resources.sh"; sourceTree = "<group>"; };
+		7B06848E44ADB911588469BD /* libPods-EmojiKit-EmojiKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmojiKit-EmojiKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848D4555BC2AE52B4F9B36F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		88C6A9319D5F2B9268DACD36 /* EKToggleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKToggleButton.h; path = Pod/Classes/EKToggleButton.h; sourceTree = "<group>"; };
+		8B98A1937E50585C77F94D20 /* libPods-Tests-EmojiKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-EmojiKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93118F47ED0F0692F7CB53CC /* EKCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCollectionView.h; path = Pod/Classes/EKCollectionView.h; sourceTree = "<group>"; };
+		970EEF98DEC83DEFEA5EA4EC /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9E670F8F019440BAB71B8C52 /* Pods-EmojiKit-EmojiKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmojiKit-EmojiKit-prefix.pch"; sourceTree = "<group>"; };
+		A48437758BACCF9FF5D5D253 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		A8ED91D529C85304510414C8 /* Pods-EmojiKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiKit.release.xcconfig"; sourceTree = "<group>"; };
+		B4C28306EB2BCA8D4F0938B5 /* EKToggleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKToggleButton.m; path = Pod/Classes/EKToggleButton.m; sourceTree = "<group>"; };
+		BAAB575762A57A252B705D54 /* UITextView+EmojiKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+EmojiKit.m"; path = "Pod/Classes/UITextView+EmojiKit.m"; sourceTree = "<group>"; };
+		BDAD98A44972B0B928867B12 /* UITextView+EmojiKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+EmojiKit.h"; path = "Pod/Classes/UITextView+EmojiKit.h"; sourceTree = "<group>"; };
+		C0646460B1B0DB50157164CB /* EKCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCollectionViewCell.m; path = Pod/Classes/EKCollectionViewCell.m; sourceTree = "<group>"; };
+		C4E03422451BFA3C4D26AD53 /* UIImage+EmojiKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+EmojiKit.m"; path = "Pod/Classes/UIImage+EmojiKit.m"; sourceTree = "<group>"; };
+		C66C19512CF06A54640F0CC3 /* EmojiKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D364840A0515E8DAE6B344F8 /* Pods-Tests-EmojiKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-EmojiKit.xcconfig"; path = "../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit.xcconfig"; sourceTree = "<group>"; };
+		D61AD7F5E066BA47652F7BF0 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7AF2CFED9658D1DBB8A83E8 /* Pods-EmojiKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmojiKit-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF5B23724DFD5C868E51557A /* EKAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKAccessoryView.h; path = Pod/Classes/EKAccessoryView.h; sourceTree = "<group>"; };
+		F2F36C391D16DA416F4137CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3D4F990773F92335083AA69 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4FEC0A93ADADB3F63C73CE7 /* Pods-EmojiKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmojiKit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F62F890985D1FD9E0C7E3CFB /* Pods-Tests-EmojiKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-EmojiKit-Private.xcconfig"; path = "../Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-Private.xcconfig"; sourceTree = "<group>"; };
+		FD0555165879A826081B6930 /* Pods-EmojiKit-EmojiKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiKit-EmojiKit.xcconfig"; sourceTree = "<group>"; };
+		FE7405A0E80674B1C4FDD4AE /* EKCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCollection.h; path = Pod/Classes/EKCollection.h; sourceTree = "<group>"; };
+		FEBC8C1D079A02BEB61DAB9F /* Pods-EmojiKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38013411C5AD69FF3CE442A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF40EE88DEEAE52043D2E9BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106BBEF3A044B63A036D7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAB7BCB0A74BA9FAEBDAFAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44BE008F8380552F99D0C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BC6FDAE1674C4E741CAA32 /* Foundation.framework in Frameworks */,
+				0C64870AEC8B1ADACAE1078A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA802DA7A5A53D31341D26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E7BC40B3749A19D754321E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0292FADE117F04BFC7496C /* Foundation.framework in Frameworks */,
+				72ADE58A3A30800332F2F59D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D47E8D776835D28AAB0D352 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F2F36C391D16DA416F4137CA /* Foundation.framework */,
+				848D4555BC2AE52B4F9B36F4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		249E2053D8F909DD3E2D9A10 /* EmojiKit */ = {
+			isa = PBXGroup;
+			children = (
+				3545068750DDFB6395E0DB22 /* EmojiKit.h */,
+				DF5B23724DFD5C868E51557A /* EKAccessoryView.h */,
+				0DA7EBBDAE4D91C1FED67772 /* EKAccessoryView.m */,
+				FE7405A0E80674B1C4FDD4AE /* EKCollection.h */,
+				3DFA5D02C5E06DBCAC9EC689 /* EKCollection.m */,
+				93118F47ED0F0692F7CB53CC /* EKCollectionView.h */,
+				24DBEDBAF0B75710EFFF847F /* EKCollectionView.m */,
+				621635D277D75D3FCC6CDE99 /* EKCollectionViewCell.h */,
+				C0646460B1B0DB50157164CB /* EKCollectionViewCell.m */,
+				6B98C8DE9B19BD1ED6F6ECFB /* EKEmoji.h */,
+				7A35C8E1F7AA0A0A6847AF2F /* EKEmoji.m */,
+				2324CAD01E70A2E743D9621A /* EKKeyboard.h */,
+				411FCDEAFD53AED7FE7DCEDC /* EKKeyboard.m */,
+				88C6A9319D5F2B9268DACD36 /* EKToggleButton.h */,
+				B4C28306EB2BCA8D4F0938B5 /* EKToggleButton.m */,
+				07178C04CE60BA2AF6649ED0 /* UIImage+EmojiKit.h */,
+				C4E03422451BFA3C4D26AD53 /* UIImage+EmojiKit.m */,
+				BDAD98A44972B0B928867B12 /* UITextView+EmojiKit.h */,
+				BAAB575762A57A252B705D54 /* UITextView+EmojiKit.m */,
+				E226B6CA67BE81F62DDB2CC1 /* Support Files */,
+			);
+			name = EmojiKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5624D66AAB6A15B826BC8AD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D47E8D776835D28AAB0D352 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B99A39439500D1DC9D79CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5004733CEA63C84BB137BC9 /* Pods-EmojiKit */,
+				F5F0E077D35EAEF831E9C21B /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B0D40F9949E56378F692860 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249E2053D8F909DD3E2D9A10 /* EmojiKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B2B84B5D585F2001BBDCF4CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66C19512CF06A54640F0CC3 /* EmojiKit.bundle */,
+				51EF409582BD290D928C0239 /* libPods-EmojiKit.a */,
+				7B06848E44ADB911588469BD /* libPods-EmojiKit-EmojiKit.a */,
+				6ED97D72F192177112EFC537 /* libPods-Tests.a */,
+				8B98A1937E50585C77F94D20 /* libPods-Tests-EmojiKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5004733CEA63C84BB137BC9 /* Pods-EmojiKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4FEC0A93ADADB3F63C73CE7 /* Pods-EmojiKit-acknowledgements.markdown */,
+				D7AF2CFED9658D1DBB8A83E8 /* Pods-EmojiKit-acknowledgements.plist */,
+				233EA63931D52B5352C6875A /* Pods-EmojiKit-dummy.m */,
+				7694742389EAC59FCA79D0EA /* Pods-EmojiKit-environment.h */,
+				7AC5C91687E020A58E5D00DA /* Pods-EmojiKit-resources.sh */,
+				FEBC8C1D079A02BEB61DAB9F /* Pods-EmojiKit.debug.xcconfig */,
+				A8ED91D529C85304510414C8 /* Pods-EmojiKit.release.xcconfig */,
+			);
+			name = "Pods-EmojiKit";
+			path = "Target Support Files/Pods-EmojiKit";
+			sourceTree = "<group>";
+		};
+		CD0136791B637EC97EB4B67D = {
+			isa = PBXGroup;
+			children = (
+				D61AD7F5E066BA47652F7BF0 /* Podfile */,
+				8B0D40F9949E56378F692860 /* Development Pods */,
+				5624D66AAB6A15B826BC8AD7 /* Frameworks */,
+				B2B84B5D585F2001BBDCF4CB /* Products */,
+				68B99A39439500D1DC9D79CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E226B6CA67BE81F62DDB2CC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD0555165879A826081B6930 /* Pods-EmojiKit-EmojiKit.xcconfig */,
+				45C2E6005240E3E2B05757B2 /* Pods-EmojiKit-EmojiKit-Private.xcconfig */,
+				63F39686BC20DF2BBF25B290 /* Pods-EmojiKit-EmojiKit-dummy.m */,
+				9E670F8F019440BAB71B8C52 /* Pods-EmojiKit-EmojiKit-prefix.pch */,
+				D364840A0515E8DAE6B344F8 /* Pods-Tests-EmojiKit.xcconfig */,
+				F62F890985D1FD9E0C7E3CFB /* Pods-Tests-EmojiKit-Private.xcconfig */,
+				65617F3E6A1A1F9BFB45FE10 /* Pods-Tests-EmojiKit-dummy.m */,
+				03ECBE3191C68EFBA23CC6C0 /* Pods-Tests-EmojiKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-EmojiKit-EmojiKit";
+			sourceTree = "<group>";
+		};
+		F5F0E077D35EAEF831E9C21B /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B8E889970270806D3AFE4 /* Pods-Tests-acknowledgements.markdown */,
+				F3D4F990773F92335083AA69 /* Pods-Tests-acknowledgements.plist */,
+				168A0C421BCA2259782668D6 /* Pods-Tests-dummy.m */,
+				A48437758BACCF9FF5D5D253 /* Pods-Tests-environment.h */,
+				6DD1F14C5A29634DC757AB0E /* Pods-Tests-resources.sh */,
+				06ABCBD14C7B209A24FC5663 /* Pods-Tests.debug.xcconfig */,
+				970EEF98DEC83DEFEA5EA4EC /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3B9F67C689F045755CC9F4A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68099D6D41137EBA8CEC86FF /* EKAccessoryView.h in Headers */,
+				944F0B99ACB58A6E66201B79 /* EKCollection.h in Headers */,
+				15532615627760952F10F9BD /* EKCollectionView.h in Headers */,
+				FD46F23D794432AB8606207E /* EKCollectionViewCell.h in Headers */,
+				D47DFC532668701DC15EC3D5 /* EKEmoji.h in Headers */,
+				14C42D9918692E97EC5BD175 /* EKKeyboard.h in Headers */,
+				D267A66D806C2DA70F265833 /* EKToggleButton.h in Headers */,
+				165D8B3B143B4AEFC4865284 /* EmojiKit.h in Headers */,
+				B6026A1BDE1261F293411AF6 /* UIImage+EmojiKit.h in Headers */,
+				48525740B17602BE818C19C4 /* UITextView+EmojiKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAECEEEB28CE4C13F7E3D90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F86CA6B6850332D218AB4E /* EKAccessoryView.h in Headers */,
+				DDE27FA9694609B0A3107861 /* EKCollection.h in Headers */,
+				FF49B6F922F2F0DBF7A610D0 /* EKCollectionView.h in Headers */,
+				036D295E5A7CCF0720A013C1 /* EKCollectionViewCell.h in Headers */,
+				9E6BFF5EA934D08E2A2362B8 /* EKEmoji.h in Headers */,
+				798CB73B5B29CC9F6013420E /* EKKeyboard.h in Headers */,
+				8B481D7A4F55FD9C5B944070 /* EKToggleButton.h in Headers */,
+				CE5750C4458341076C9E31CA /* EmojiKit.h in Headers */,
+				765D3CEB2B7336198D1138AE /* UIImage+EmojiKit.h in Headers */,
+				7781B827DBD5E46CC47AF399 /* UITextView+EmojiKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1060C39332EEBEEB08610A1E /* Pods-EmojiKit-EmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578CA4738AF2EBB5244FE3FC /* Build configuration list for PBXNativeTarget "Pods-EmojiKit-EmojiKit" */;
+			buildPhases = (
+				7E948AF2F34BCCBAF152D35C /* Sources */,
+				A44BE008F8380552F99D0C87 /* Frameworks */,
+				3B9F67C689F045755CC9F4A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98C8B78EFCD48F53EC93D0CA /* PBXTargetDependency */,
+			);
+			name = "Pods-EmojiKit-EmojiKit";
+			productName = "Pods-EmojiKit-EmojiKit";
+			productReference = 7B06848E44ADB911588469BD /* libPods-EmojiKit-EmojiKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		45AFBE25D347D7AF48E28FF6 /* Pods-EmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3568082E7512B317EA79F81E /* Build configuration list for PBXNativeTarget "Pods-EmojiKit" */;
+			buildPhases = (
+				A8487BF003D753D8673DC93A /* Sources */,
+				8106BBEF3A044B63A036D7DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101B76C29A8FD50D9949C3E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-EmojiKit";
+			productName = "Pods-EmojiKit";
+			productReference = 51EF409582BD290D928C0239 /* libPods-EmojiKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69CBF02CAF87CA8F0228C509 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E764AA0A0F1581C1B1F49CE3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				DA02B4C7C6DF91EACA0F39EB /* Sources */,
+				38013411C5AD69FF3CE442A2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C636B1DFD846041152753B53 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 6ED97D72F192177112EFC537 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		900AAA7E1CEDBEE3434EB2A4 /* EmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A49CA76E4479BB963A09CCFD /* Build configuration list for PBXNativeTarget "EmojiKit" */;
+			buildPhases = (
+				D7DBCAA68762733AE02C509E /* Sources */,
+				BAA802DA7A5A53D31341D26A /* Frameworks */,
+				4CD24CF4737ECDAD9C399988 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmojiKit;
+			productName = EmojiKit;
+			productReference = C66C19512CF06A54640F0CC3 /* EmojiKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9DB208EAC9AC3FBA47BC0DFC /* Pods-Tests-EmojiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E7D8B7B688ACBE4B37289E /* Build configuration list for PBXNativeTarget "Pods-Tests-EmojiKit" */;
+			buildPhases = (
+				C5996E8D2B9C0509069CA5D1 /* Sources */,
+				D9E7BC40B3749A19D754321E /* Frameworks */,
+				6AAECEEEB28CE4C13F7E3D90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78C1EF385D0D8B194280C61 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-EmojiKit";
+			productName = "Pods-Tests-EmojiKit";
+			productReference = 8B98A1937E50585C77F94D20 /* libPods-Tests-EmojiKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE36E76C2AD0162AB61B0D07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0CBA561A57533553E9F93EEC /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD0136791B637EC97EB4B67D;
+			productRefGroup = B2B84B5D585F2001BBDCF4CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900AAA7E1CEDBEE3434EB2A4 /* EmojiKit */,
+				45AFBE25D347D7AF48E28FF6 /* Pods-EmojiKit */,
+				1060C39332EEBEEB08610A1E /* Pods-EmojiKit-EmojiKit */,
+				69CBF02CAF87CA8F0228C509 /* Pods-Tests */,
+				9DB208EAC9AC3FBA47BC0DFC /* Pods-Tests-EmojiKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CD24CF4737ECDAD9C399988 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E948AF2F34BCCBAF152D35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015114AA7B5C0E41FC771EC1 /* EKAccessoryView.m in Sources */,
+				CCC85131A2961710C46845B6 /* EKCollection.m in Sources */,
+				8E7070356554CC82E8A49D41 /* EKCollectionView.m in Sources */,
+				7C15AC336443B338515EEFDD /* EKCollectionViewCell.m in Sources */,
+				5750801A8DC7EDDD4D1035F9 /* EKEmoji.m in Sources */,
+				57A67730FC2554703A4F5240 /* EKKeyboard.m in Sources */,
+				533A8C34E2D7A03B9B37DC7D /* EKToggleButton.m in Sources */,
+				AF3EBE601B5F62D24E1B4370 /* Pods-EmojiKit-EmojiKit-dummy.m in Sources */,
+				F45F17F570A4EFD34C9A3CF7 /* UIImage+EmojiKit.m in Sources */,
+				12732730E836B0449EDC572B /* UITextView+EmojiKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8487BF003D753D8673DC93A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652555EA6C9B88B5FDC67607 /* Pods-EmojiKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5996E8D2B9C0509069CA5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A4C98389D822E731A65C37 /* EKAccessoryView.m in Sources */,
+				B7D35655073E55AF45FF9861 /* EKCollection.m in Sources */,
+				9D4DBEAA13DF6D2E8D106308 /* EKCollectionView.m in Sources */,
+				76AC3302F0C99390AB5F8CB4 /* EKCollectionViewCell.m in Sources */,
+				70DED150B1E417AF9821A9E6 /* EKEmoji.m in Sources */,
+				518AF426DAAFA8B28B7B454A /* EKKeyboard.m in Sources */,
+				8C301BC9BEBE362B71FCA5B7 /* EKToggleButton.m in Sources */,
+				8060BEDE2137D3AEF6DF28BD /* Pods-Tests-EmojiKit-dummy.m in Sources */,
+				E0DAE1E7F5DA9C1578899FFE /* UIImage+EmojiKit.m in Sources */,
+				00252F92A2118A18B70FE44F /* UITextView+EmojiKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DBCAA68762733AE02C509E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA02B4C7C6DF91EACA0F39EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D1C0ED1841F41C995394FC /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101B76C29A8FD50D9949C3E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EmojiKit-EmojiKit";
+			target = 1060C39332EEBEEB08610A1E /* Pods-EmojiKit-EmojiKit */;
+			targetProxy = 6D2A0EE02A6027FB6AB46C52 /* PBXContainerItemProxy */;
+		};
+		98C8B78EFCD48F53EC93D0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmojiKit;
+			target = 900AAA7E1CEDBEE3434EB2A4 /* EmojiKit */;
+			targetProxy = 230BFA9FAB73BE668F12818A /* PBXContainerItemProxy */;
+		};
+		A78C1EF385D0D8B194280C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmojiKit;
+			target = 900AAA7E1CEDBEE3434EB2A4 /* EmojiKit */;
+			targetProxy = C9639B96EEE9ED04C97BF71B /* PBXContainerItemProxy */;
+		};
+		C636B1DFD846041152753B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-EmojiKit";
+			target = 9DB208EAC9AC3FBA47BC0DFC /* Pods-Tests-EmojiKit */;
+			targetProxy = EC91919EE70DCA9598AB8C73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17860A33B0D708795A0B1BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62F890985D1FD9E0C7E3CFB /* Pods-Tests-EmojiKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23481CCC52FA18757438F346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970EEF98DEC83DEFEA5EA4EC /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F88184C08F20CE164CA55F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8ED91D529C85304510414C8 /* Pods-EmojiKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A4CDF4C11BEB9F3178D9B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62F890985D1FD9E0C7E3CFB /* Pods-Tests-EmojiKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-EmojiKit/Pods-Tests-EmojiKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C9AAFF5FC24CE8EE703FD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBC8C1D079A02BEB61DAB9F /* Pods-EmojiKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C965BFB91B0A66252F559AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C2E6005240E3E2B05757B2 /* Pods-EmojiKit-EmojiKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EmojiKit-EmojiKit/Pods-EmojiKit-EmojiKit-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D164FEBA9A6BCD3A1353740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93F4D43E26F40A8D8592D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A8C02BD61850BB798AF061CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C2E6005240E3E2B05757B2 /* Pods-EmojiKit-EmojiKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EmojiKit-EmojiKit/Pods-EmojiKit-EmojiKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5971D035B761C5DC47A9C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D614611EDC2DB259E619017E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DDAD662DEF17B37295C8076A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ABCBD14C7B209A24FC5663 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBA561A57533553E9F93EEC /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F4D43E26F40A8D8592D34F /* Debug */,
+				7D164FEBA9A6BCD3A1353740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3568082E7512B317EA79F81E /* Build configuration list for PBXNativeTarget "Pods-EmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9AAFF5FC24CE8EE703FD53 /* Debug */,
+				43F88184C08F20CE164CA55F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578CA4738AF2EBB5244FE3FC /* Build configuration list for PBXNativeTarget "Pods-EmojiKit-EmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C02BD61850BB798AF061CE /* Debug */,
+				7C965BFB91B0A66252F559AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A49CA76E4479BB963A09CCFD /* Build configuration list for PBXNativeTarget "EmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5971D035B761C5DC47A9C2A /* Debug */,
+				D614611EDC2DB259E619017E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E7D8B7B688ACBE4B37289E /* Build configuration list for PBXNativeTarget "Pods-Tests-EmojiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4CDF4C11BEB9F3178D9B20 /* Debug */,
+				17860A33B0D708795A0B1BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E764AA0A0F1581C1B1F49CE3 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD662DEF17B37295C8076A /* Debug */,
+				23481CCC52FA18757438F346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE36E76C2AD0162AB61B0D07 /* Project object */;
+}

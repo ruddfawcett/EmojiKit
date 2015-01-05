@@ -24,7 +24,7 @@
 
 #import "EKCollectionViewCell.h"
 
-#import "EKEmoji.h"
+#import "EmojiKit.h"
 
 @interface EKCollectionViewCell ()
 

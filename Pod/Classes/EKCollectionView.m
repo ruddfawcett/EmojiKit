@@ -24,8 +24,7 @@
 
 #import "EKCollectionView.h"
 
-#import "EKCollection.h"
-#import "EKCollectionViewCell.h"
+#import "EmojiKit.h"
 
 CGFloat EKCollectionViewPadding = 20;
 CGFloat EKCollectionViewColumns = 4;

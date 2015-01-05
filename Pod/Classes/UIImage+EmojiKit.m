@@ -24,6 +24,8 @@
 
 #import "UIImage+EmojiKit.h"
 
+#import "EmojiKit.h"
+
 @implementation UIImage (EmojiKit)
 
 #pragma mark - Instance Methods
