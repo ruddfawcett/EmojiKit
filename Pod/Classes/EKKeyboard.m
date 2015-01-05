@@ -84,20 +84,15 @@
     keyboardFrame.size.height -= EKAcessoryViewHeight;
     self.keyboardFrame = keyboardFrame;
     
-#warning maybe changge this back
-//    CGRect newFrame = self.textView.frame;
-//    newFrame.size.height -= keyboardFrame.size.height + EKAcessoryViewHeight;
-//    
-//    self.textView.frame = newFrame;
+    CGRect newFrame = self.textView.frame;
+    newFrame.size.height -= keyboardFrame.size.height + EKAcessoryViewHeight;
+    
+    self.textView.frame = newFrame;
     self.reloadCollection = YES;
 }
 
 - (void)attachToTextView:(UITextView *)textView {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShown:) name:UIKeyboardWillShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
-    
     textView.inputAccessoryView = self.accessoryView;
-    textView.backgroundColor = [UIColor redColor];
     
     self.reloadCollection = YES;
     self.textView = textView;
@@ -247,37 +242,6 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-
-- (void)moveTextViewForKeyboard:(NSNotification*)aNotification up:(BOOL)up {
-    NSDictionary* userInfo = [aNotification userInfo];
-    NSTimeInterval animationDuration;
-    UIViewAnimationCurve animationCurve;
-    CGRect keyboardEndFrame;
-    
-    [[userInfo objectForKey:UIKeyboardAnimationCurveUserInfoKey] getValue:&animationCurve];
-    [[userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey] getValue:&animationDuration];
-    [[userInfo objectForKey:UIKeyboardFrameEndUserInfoKey] getValue:&keyboardEndFrame];
-    
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:animationDuration];
-    [UIView setAnimationCurve:animationCurve];
-    
-    CGRect newFrame = self.textView.frame;
-    CGRect keyboardFrame = [self.superview convertRect:keyboardEndFrame toView:nil];
-    keyboardFrame.size.height -= EKAcessoryViewHeight;
-    newFrame.size.height -= keyboardFrame.size.height * (up?1:-1);
-    self.textView.frame = newFrame;
-    
-    [UIView commitAnimations];
-}
-
-- (void)keyboardWillShown:(NSNotification*)aNotification {
-    [self moveTextViewForKeyboard:aNotification up:YES];
-}
-
-- (void)keyboardWillHide:(NSNotification*)aNotification {
-    [self moveTextViewForKeyboard:aNotification up:NO];
 }
 
 @end
