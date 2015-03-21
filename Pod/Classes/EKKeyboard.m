@@ -208,12 +208,15 @@
     NSAttributedString *newString = [NSAttributedString attributedStringWithAttachment:attachment];
     
     [attributedString insertAttributedString:newString atIndex:selectedRange.location];
-    [self.plaintext insertString:[NSString stringWithFormat:@":%@:",emoji.name] atIndex:selectedRange.location];
+    NSLog(@"%@",attributedString);
+    [self.plaintext appendString:[NSString stringWithFormat:@":%@:",emoji.name]];
     
     self.textView.attributedText = attributedString;
     self.textView.font = font;
     self.textView.selectedRange = NSMakeRange(selectedRange.location+1, selectedRange.length);
     self.textView.tintColor = [UIColor clearColor];
+    
+    NSLog(@"%@",self.plaintext);
 }
 
 - (void)didChangePage:(NSUInteger)page {
